@@ -22,29 +22,6 @@ const app = new McpServer({
     },
 );
 
-/*
-app.registerResource(
-    'horarioBSI-resource',
-    "memoria://horarios-BSI",
-    {
-        title: 'horarios do curso de Bacharelado de Sistemas de Informação (BSI) da universidade UNIRIO',
-        description: 'Planilha convertida em JSON com horarios do curso de Bacharelado de Sistemas de Informação (BSI) da universidade UNIRIO',
-        mimeType: 'application/json'
-    },
-    async ():Promise<ReadResourceResult> =>{
-        return{
-            contents: [
-                {
-                    uri: "memoria://horarios-BSI",
-                    text: JSON.stringify(horarioBsiJSON)
-                }
-            ]
-        }
-    }
-)
-*/
-
-
 app.registerTool(
     'Horarios_BSI',
     {
