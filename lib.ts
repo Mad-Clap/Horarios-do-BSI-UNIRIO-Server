@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer-core'
-import xlsx from "xlsx";
+import * as xlsx from 'xlsx';
 import os from 'node:os'
 import path from 'node:path';
 
