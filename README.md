@@ -14,7 +14,7 @@ O servidor também auxilia na criação de uma tabela customizada com os horári
 
 ### 1. Horarios BSI
 
-Expõe a planilha com informações sobre os horários das aulas do curso de BSI como um objeto JSON através da tool
+Expõe a planilha com informações sobre os horários das aulas do curso de BSI como um objeto JSON
 
 ### 2. Tabela de matérias BSI
 
