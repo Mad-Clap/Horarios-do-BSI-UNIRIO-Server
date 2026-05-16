@@ -2,7 +2,7 @@
 
 ## Servidor MCP para disponibilização de horários das disciplinas de BSI do período vigente
 
-Repositório de servidor MCP que disponibiliza a planilha de horários do período vigente do curso de BSI da UNIRIO, e também permite a criação de uma tabela com matérias especificadas pelo usuário (em html)
+O servidor MCP "Horarios do BSI UNIRIO Server" disponibiliza a planilha de horários do período vigente do curso de BSI da UNIRIO, e também permite a criação de uma tabela com matérias especificadas pelo usuário (em html)
 
 É utilizada a biblioteca Puppeteer para buscar a versão mais atual da planilha de horários do curso de Bacharelado de Sistemas de Informação da UNIRIO diretamente do site do curso e salvá-la no computador do usuário. 
 
